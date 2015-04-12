@@ -1,18 +1,8 @@
-# Drywall
+# A login prototype
 
 A website and user system starter. Implemented with Express and Backbone.
 
-[![Dependency Status](https://david-dm.org/jedireza/drywall.svg?theme=shields.io)](https://david-dm.org/jedireza/drywall)
-[![devDependency Status](https://david-dm.org/jedireza/drywall/dev-status.svg?theme=shields.io)](https://david-dm.org/jedireza/drywall#info=devDependencies)
-
-
 ## Technology
-
-Server side, Drywall is built with the [Express](http://expressjs.com/)
-framework. We're using [MongoDB](http://www.mongodb.org/) as a data store.
-
-The front-end is built with [Backbone](http://backbonejs.org/).
-We're using [Grunt](http://gruntjs.com/) for the asset pipeline.
 
 | On The Server | On The Client  | Development |
 | ------------- | -------------- | ----------- |
@@ -26,13 +16,7 @@ We're using [Grunt](http://gruntjs.com/) for the asset pipeline.
 
 ## Live demo
 
-| Platform                       | Username | Password |
-| ------------------------------ | -------- | -------- |
-| https://drywall.herokuapp.com/ | root     | h3r00t   |
-
-__Note:__ The live demo has been modified so you cannot change the root user,
-the root user's linked admin role or the root admin group. This was done in
-order to keep the app ready to use at all times.
+Coming soon...
 
 
 ## Requirements
@@ -89,40 +73,6 @@ $ npm start
 
 # > Drywall@0.0.0 start /Users/jedireza/projects/jedireza/drywall
 # > grunt
-
-# Running "copy:vendor" (copy) task
-# ...
-
-# Running "concurrent:dev" (concurrent) task
-# Running "watch" task
-# Running "nodemon:dev" (nodemon) task
-# Waiting...
-# [nodemon] v1.3.7
-# [nodemon] to restart at any time, enter `rs`
-# [nodemon] watching: *.*
-# [nodemon] starting `node app.js`
-# Server is running on port 3000
-```
-
-Now just use the reset password feature to set a password.
-
- - Go to `http://localhost:3000/login/forgot/`
- - Submit your email address and wait a second.
- - Go check your email and get the reset link.
- - `http://localhost:3000/login/reset/:email/:token/`
- - Set a new password.
-
-Login. Customize. Enjoy.
-
-
-## Philosophy
-
- - Create a website and user system.
- - Write code in a simple and consistent way.
- - Only create minor utilities or plugins to avoid repetitiveness.
- - Find and use good tools.
- - Use tools in their native/default behavior.
-
 
 ## Features
 
